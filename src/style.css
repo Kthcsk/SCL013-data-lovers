@@ -1,0 +1,110 @@
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    padding: 0vh 1vh;
+    background-color: transparent;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 5vw 4vw 2vw 4vw;
+    color: whitesmoke;
+    background: #52BDC7;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+#searchText {
+  justify-content: center;
+  font-weight: 600;
+  padding: 15vh 10vh 4vh 10vh;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 25px;
+  padding: 1vh 15vh 1vh 15vh;
+  border-radius: 25px;
+  display: block;
+  outline: none;
+  box-shadow: inset 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+::placeholder {
+  color: #181818;
+  opacity: 25%;
+}
+
+#containerHome {
+  padding: 25vh 10vh;
+  width: 100%;
+  height: 100vh;
+}
+
+#buttonPokedex {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 2vh 6vh;
+  background: #52BDC7;
+  border-radius: 20px;
+}
+
+#containerPokedex {
+  padding: 15vh 10vh;
+  width: 100%;
+  height: 100vh;
+}
+
+#filterOrder {
+  display: flex;
+}
+
+#containerSearch {
+  padding: 15vh 10vh;
+  width: 100%;
+  height: 100vh;
+}
+
+#containerRanking {
+  padding: 15vh 10vh;
+  width: 100%;
+  height: 100vh;
+}
