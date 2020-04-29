@@ -8,7 +8,12 @@ font-family: 'Montserrat', sans-serif; */
   scroll-behavior: smooth;
 }
 
+html {
+  font-size: 18px;
+}
+
 header {
+  display: flex;
   width: 100%;
 }
 
@@ -35,12 +40,12 @@ header {
 
 h2 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 70px;
+  font-size: 3.9rem;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 1.38rem;
 }
 
 #searchText {
@@ -58,7 +63,7 @@ p {
 input {
   color: #0f0f0f;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.38rem;
   padding: 1vh 15vh 1vh 15vh;
   border-radius: 25px;
   display: block;
