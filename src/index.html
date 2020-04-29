@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers Harry Potter</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Guía Pokémon Go</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="nav" id="nav">
+      <a href="#containerHome" id="homeNav">home</a>
+      <a href="#containerPokedex" class="link" id="pokedexNav">Pokedex</a>
+      <a href="#containerSearch" class="link" id="searchNav">Buscar</a>
+      <a href="#containerRanking" class="link" id="rankingNav">Top 10</a>
+    </div>
+  </header>
+  <main>
+    <section id="containerHome">
+      <div>
+        <h2>BIENVENIDO A LA GUÍA <br> POKÉMON GO</h2>
+        <p>Un lugar donde podrás encontrar <br> información estrategica para jugar <br> Pokémon Go</p>
+        <br>
+        <p>¡Te invitamos a recorrer nuestro menú!</p>
+        <br>
+        <br>
+        <a href="#containerPokedex" id="buttonPokedex">Ver Pokedex</a>
+      </div>
+    </section>
+    <section id="containerPokedex">
+      <div>
+        <h2>Pokedex</h2>
+      </div>
+      <div id="filterOrder">
+        <label for="type">Tipo</label><br>
+        <select name="selector" id="type">
+          <option value="0" selected=selected>Seleccionar</option>
+          <option value="bug">Bicho</option>
+          <option value="dragon">Dragon</option>
+          <option value="electric">Eléctrico</option>
+          <option value="fighting">Lucha</option>
+          <option value="fire">Fuego</option>
+          <option value="flying">Volador</option>
+          <option value="ghost">Fantasma</option>
+          <option value="grass">Planta</option>
+          <option value="ground">Tierra</option>
+          <option value="ice">Hielo</option>
+          <option value="normal">Normal</option>
+          <option value="poison">Veneno</option>
+          <option value="psychic">Psiquico</option>
+          <option value="rock">Roca</option>
+          <option value="water">Agua</option>
+        </select>
+        <label for="order">Ordenar</label><br>
+        <select class="selector" id="order">
+          <option value="A-Z">A - Z</option>
+          <option value="Z-A">Z - A</option>
+          <option value="1-151">1 - 151</option>
+          <option value="151-1">151 - 1</option>
+        </select>
+      </div>
+      <div id="containerPokemon" class="containerPokemon">
+      </div>
+    </section>
+    <section id="containerSearch">
+      <div class="search" id="search">
+        <div>
+          <p id="searchText">Ingresa el Pokemon que estás buscando</p>
+        </div>
+        <input type="text" id="search" min="0" placeholder="Pikachu, Bulbasaur, etc">
+      </div>
+    </section>
+    <section id="containerRanking">
+      <div>
+        <h2>Top 10</h2>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Hecho por Jeniffer Genoves y Katherine Castillo ©2020</p>
+  </footer>
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
