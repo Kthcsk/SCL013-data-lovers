@@ -13,27 +13,27 @@
 
 ***
 
-# INTRODUCCIÓN
+## INTRODUCCIÓN
 
 En este proyecto construimos una página web que permitirá visualizar información importante para los jugadores de Pokémon Go. Esta información consta de  151 Pokemones de la primera generación o  también conocida como **"Pokemones de Kanto",** llamados de este modo porque provienen de la región _Kanto._
 
 
 
-# DEFINICIÓN DEL PRODUCTO
+## DEFINICIÓN DEL PRODUCTO
 
 **"Guía Pokémon Go"** es una página web para jugadores avanzados, es decir, que juegan constantemente y quieren conocer datos relevantes para aumentar sus opciones de ganar Pokémon Go. 
 Los usuarios podrán tener acceso a los _Pokémones de  Kanto._ Podrán encontrar datos de cada especie de Pokémon, ordenarlos alfabeticamente, según su tipo, principales características, debilidad y caramelos necesarios para evolucionar. 
 Con esta plataforma, el usuario podra acceder a la información de manera simple y entretenida. 
 
-# TIPO DE USUARIO
+## TIPO DE USUARIO
 
 Usuario avanzado, que posee conocimientos de la serie Pokémon, asi como del juego Pokemon Go.
 
-# OBJETIVO PRINCIPAL DEL PRODUCTO
+## OBJETIVO PRINCIPAL DEL PRODUCTO
 
 El objetivo de _Guía Pokémon Go_ es ayudar a mejorar el rendimiento en el juego y ayudar al usuario a convertirse en  Maestro Pokemon.
 
-# HISTORIAS DE USUARIO
+## HISTORIAS DE USUARIO
 
 Las siguientes historias de usuario, se obtuvieon despues del análisis detallado de las entrevistas realizadas.
 
@@ -65,16 +65,19 @@ Yo como jugador de Pokémon Go, quiero saber cuántos caramelos necesita un Pok�
  - Mostrar cuántas y cuáles son las evoluciones de los Pokémon.
  - Mostrar la cantidad de caramelos que necesita cada Pokémon para evolucionar.
 
-# DISEÑO DE LA INTERFAZ DE USUARIO
+## DISEÑO DE LA INTERFAZ DE USUARIO
 
-**Prototipo de baja fidelidad** 
-**1. Wireframe en lápiz y papel:**
+### PROTOTIPO DE BAJA FIDELIDAD 
+**1. WIREFRAME EN LAPIZ Y PAPEL**
+Primer bosquejo del proyecto realizado en lápiz y papel.
+(PEGAR IMAGENES)
 
-**2. Wireframe en Invision:** Nuestro segundo sketch fue realizado en Invision, con esta herramienta pudimos linkear las páginas para obtener una simulación de este prototipo. Se puede observar en el siguiente link: 
+**2. WIREFRAME INVISIÓN**
+ Nuestro segundo sketch fue realizado en Invision, con esta herramienta pudimos linkear las páginas para obtener una simulación de este prototipo. Se puede observar en el siguiente link: 
 
 https://jeniffer865303.invisionapp.com/console/Pokemon-ck9ca08e409a00183i24ay3t0/ck9cf6sdo0bu8016txmdjxyrt/play
 
-**Prototipo de alta fidelidad:**
+### PROTOTIPO DE  ALTA FIDELIDAD 
 
 Para el diseño de la Interfaz de Usuario, utilizamos Figma. Acontinuación mostramos las imágenes y el link donde se puede visualizar minuciosamente.
 
@@ -82,11 +85,11 @@ https://www.figma.com/proto/7dJRwOM1DuceGin8ogKeqD/DataLoversPokem%C3%B3nGo?node
 
 (PONER IMAGENES DE FIGMA)
 
-# APÉNDICE
+## APÉNDICE
 
 Antes de empezar a escribir código, se tomaron decisiones de organización del proyecto y planificación del equipo de trabajo.
 
-## Organización del proyecto
+### ORGANIZACIÓN DEL PROYECTO
  El primer paso consistió en responder a las siguientes preguntas: 
 
  -   **¿Quiénes son los principales usuarios de producto?**
@@ -104,7 +107,7 @@ El objetivo de estos usuarios es acceder de manera rápida la información que s
 
 Antes de jugar Pokémon Go,  para definir las estrategias de juego.
 
-## Planificación realizada por el equipo de trabajo
+### PLANIFICACIÓN REALIZADA POR EL EQUIPO DE TRABAJO
 
 Para la planificación del proyecto, nos organizamos de la siguiente manera:
 
@@ -114,5 +117,8 @@ Para la planificación del proyecto, nos organizamos de la siguiente manera:
  - Dividimos todas las actividades que debemos realizar, en tareas pequeñas. Luego asignamos esas tareas pequeñas en Sprints, con una duración de 3 semanas.
  - Para la planificación usamos `Trello`, se puede revisar en el siguiente link: https://trello.com/b/UImct7jR/data-lovers-pokemon
  - Nos comprometimos a regirnos por la planificación realizada en Trello, además a estudiar los contenidos necesarios para poder realizar eficientemente el proyecto.
+
+
+
 
 
