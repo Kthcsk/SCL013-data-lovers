@@ -3,12 +3,12 @@
 ## Índice
 
 * [1. Introducción](#1-Introducción)
-* [2. Objetivos del proyecto](#2-objetivos-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Parte adicional-opcional](#6-parte-adicional-opcional)
-* [6. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [7. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [2. Definición del producto](#2-Definición-del-producto)
+* [3. Tipo de usuario](#3-Tipo-de-usuario)
+* [4. Objetivo principal del producto](#4-Objetivo-principal-del-proyecto)
+* [5. Historias de usuario](#6-Historias-de-usuarios)
+* [6. Diseño de la Interfaz de Usuario](#7-Diseño-de-la-interfaz-de-usuario)
+* [7.Apéndice](#8-Apéndice)
 * [8. Checklist](#9-checklist)
 
 ***
@@ -19,7 +19,7 @@ En este proyecto construimos una página web que permitirá visualizar informaci
 
 
 
-# Definición del producto
+## Definición del producto
 
 **"Guía Pokémon Go"** es una página web para jugadores avanzados, es decir, que juegan constantemente y quieren conocer datos relevantes para aumentar sus opciones de ganar Pokémon Go. 
 Los usuarios podrán tener acceso a los _Pokémones de  Kanto._ Podrán encontrar datos de cada especie de Pokémon, ordenarlos alfabeticamente, según su tipo, principales características, debilidad y caramelos necesarios para evolucionar. 
@@ -29,7 +29,7 @@ Con esta plataforma, el usuario podra acceder a la información de manera simple
 
 Usuario avanzado, que posee conocimientos de la serie Pokémon, asi como del juego Pokemon Go.
 
-## Objetivo principal
+## Objetivo principal del producto
 
 El objetivo de _Guía Pokémon Go_ es ayudar a mejorar el rendimiento en el juego y ayudar al usuario a convertirse en  Maestro Pokemon.
 
