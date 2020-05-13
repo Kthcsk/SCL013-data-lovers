@@ -13,32 +13,30 @@
 <body>
   <header>
     <div class="nav" id="nav">
-      <a href="#containerHome" id="homeNav">home</a>
+      <a href="#containerHome" id="homeNav"><img src="./img/LogoGuía.png" id="imgLogo"></a>
       <a href="#containerPokedex" class="link" id="pokedexNav">Pokedex</a>
-      <a href="#containerSearch" class="link" id="searchNav">Buscar</a>
       <a href="#containerRanking" class="link" id="rankingNav">Top 10</a>
     </div>
   </header>
   <main>
     <section id="containerHome">
-      <div>
+      <div id="homeText">
         <h2>BIENVENIDO A LA GUÍA <br> POKÉMON GO</h2>
         <p>Un lugar donde podrás encontrar <br> información estrategica para jugar <br> Pokémon Go</p>
         <br>
         <p>¡Te invitamos a recorrer nuestro menú!</p>
         <br>
         <br>
-        <a href="#containerPokedex" id="buttonPokedex">Ver Pokedex</a>
       </div>
+      <div id="pikaImg">
+        <img src="./img/PikachuOK.png" alt="pikachu">
+      </div>
+      <a href="#containerPokedex" id="buttonPokedex">Ver Pokedex</a>
     </section>
     <section id="containerPokedex">
-      <div>
-        <h2>Pokedex</h2>
-      </div>
       <div id="filterOrder">
-        <label for="type">Tipo</label><br>
-        <select name="selector" id="selectorType">
-          <option value="0" selected=selected>Seleccionar</option>
+        <select name="selector" id="selectorType" class="selectorType">
+          <option value="0" selected=selected>Tipo</option>
           <option value="bug">Bicho</option>
           <option value="dragon">Dragon</option>
           <option value="electric">Eléctrico</option>
@@ -55,33 +53,36 @@
           <option value="rock">Roca</option>
           <option value="water">Agua</option>
         </select>
-        <label for="order">Ordenar</label><br>
-        <select class="selector" id="order">
+        <select name="selector" id="selectorOrder" class="selectorType">
+          <option value="0">Ordenar</option>
           <option value="A-Z">A - Z</option>
           <option value="Z-A">Z - A</option>
           <option value="1-151">1 - 151</option>
           <option value="151-1">151 - 1</option>
         </select>
       </div>
+      <div class="search" id="search">
+        <input type="text" id="searchBar" placeholder="Pikachu, Bulbasaur, etc">
+      </div>
       <div id="containerPokemon" class="containerPokemon">
       </div>
     </section>
-    <section id="containerSearch">
-      <div class="search" id="search">
-        <div>
-          <p id="searchText">Ingresa el Pokemon que estás buscando</p>
-        </div>
-        <input type="text" id="search" min="0" placeholder="Pikachu, Bulbasaur, etc">
-      </div>
-    </section>
     <section id="containerRanking">
-      <div>
-        <h2>Top 10</h2>
+      <div id="tableTop">
+        <div id="filterOrderR">
+          <select name="selector" id="selectorType2" class="selectorType">
+            <option value="0" selected=selected>Selecciona un Top</option>
+            <option value="1">KM por huevo</option>
+            <option value="dragon">Pokemon más frecuente</option>
+            <option value="electric">Menos caramelos para evolucionar</option>
+          </select>
+        </div>
+        <div id="tableOne"></div>
       </div>
     </section>
   </main>
   <footer>
-    <p>Hecho por Jeniffer Genoves y Katherine Castillo ©2020</p>
+    <p id="footer">Hecho por Jeniffer Genoves y Katherine Castillo ©2020</p>
   </footer>
   <div id="root"></div>
   <script src="main.js" type="module"></script>

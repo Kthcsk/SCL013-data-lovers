@@ -115,3 +115,7 @@ Para el diseño de la Interfaz de Usuario, utilizamos Figma. Acontinuación, dej
 https://www.figma.com/proto/7dJRwOM1DuceGin8ogKeqD/DataLoversPokemónGo?node-id=11%3A6&viewport=85%2C202%2C0.125784233212471&scaling=scale-down
 
 **Adjuntar imagenes desde Figma**
+
+
+
+
