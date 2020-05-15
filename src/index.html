@@ -35,7 +35,7 @@
     </section>
     <section id="containerPokedex">
       <div id="filterOrder">
-        <select name="selector" id="selectorType">
+        <select name="selector" id="selectorType" class="selectorType">
           <option value="0" selected=selected>Tipo</option>
           <option value="bug">Bicho</option>
           <option value="dragon">Dragon</option>
@@ -53,7 +53,7 @@
           <option value="rock">Roca</option>
           <option value="water">Agua</option>
         </select>
-        <select name="selector" id="selectorOrder">
+        <select name="selector" id="selectorOrder" class="selectorType">
           <option value="0">Ordenar</option>
           <option value="A-Z">A - Z</option>
           <option value="Z-A">Z - A</option>
@@ -62,18 +62,22 @@
         </select>
       </div>
       <div class="search" id="search">
-        <input type="text" id="search" placeholder="Pikachu, Bulbasaur, etc">
+        <input type="text" id="searchBar" placeholder="Pikachu, Bulbasaur, etc">
       </div>
       <div id="containerPokemon" class="containerPokemon">
       </div>
     </section>
     <section id="containerRanking">
-      <div>
-        <h2>Top 10</h2>
-      </div>
-      <div id="tablesTop">
+      <div id="tableTop">
+        <div id="filterOrderR">
+          <select name="selector" id="selectorType2" class="selectorType">
+            <option value="0" selected=selected>Selecciona un Top</option>
+            <option value="1">KM por huevo</option>
+            <option value="dragon">Pokemon más frecuente</option>
+            <option value="electric">Menos caramelos para evolucionar</option>
+          </select>
+        </div>
         <div id="tableOne"></div>
-        <div id="tableTwo"></div>
       </div>
     </section>
   </main>
@@ -85,3 +89,4 @@
 </body>
 
 </html>
+

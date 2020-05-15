@@ -2,43 +2,34 @@
 // DENTRO DE LAS LLAVES DE CADA FUNCIÓN ESCRIBO LAS FUNCIONES QUE DECLARO EN EL DATA.
 
 import pokeData from './data/pokemon/pokemon.js';
+import {} from './data.js';
 
-import { filterData } from './data.js';
 
-//MOSTRAR A POKEMONES EN POKEDEX. 
-//Método Object.values() devuelve un array con los valores correspondientes a las propiedades enumerables de un objeto.
+//Ver los Pokemones
+// Objet.values Devuelve un array con los valores correspondientes a las propiedades enumerables de la data
 const pokeDatos = pokeData.pokemon;
 let arrData = Object.values(pokeDatos)
 const pokemonesObj = document.getElementById("containerPokemon");
 for (let i = 0; i < arrData.length; i++) {
   pokemonesObj.innerHTML += `<div class="cardP">
     <h3 class="pokeNumber">${arrData[i].num}</h3>
-    <img src="${arrData[i].img}" alt="" class="pokeImg">
+    <img class="pokeImg" src="${arrData[i].img}">
     <h4 class="pokeName">${arrData[i].name}</h4>
   </div>`;
-  // createModal();
 }
 
 
-//RANKING-TOP 10
+//Top 10
 const pokeDatos2 = pokeData.pokemon;
 let arrData2 = Object.values(pokeDatos2)
-const pokemonesObj2 = document.getElementById("tableOne");  
-for (let i = 0; i <9; arrData.length; i++) {
-  pokemonesObj2.innerHTML += `<div class="cardP">
-    <h3 class="pokeNumber">${arrData2[i].num}</h3>
-    <img src="${arrData2[i].img}" alt="" class="pokeImg2">
-    <h4 class="pokeName">${arrData2[i].name}</h4>
-  </div>`;
-
-//ORDENAR A LOS POKEMONES DESDE LA A-Z
-
-const selectOrder = document.getElementById("filterOrder");
-selectOrder.addEventListener("change", ()=>{
-  let selectedOrder = filterData(selectOrder);
-
-  document.getElementById("containerPokemon").innerHTML="";
-})
+const pokemonesObj2 = document.getElementById("tableOne");
+for (let i = 0; i <=9; i++) {
+   pokemonesObj2.innerHTML += `<div class="root">
+     <h3 class="pokeNumber2">${arrData2[i].num}</h3>
+     <h4 class="pokeName2">${arrData2[i].name}</h4>
+      <img class="pokeImg2" src="${arrData2[i].img}">
+    </div>`;
+}
 
 
 
@@ -48,6 +39,16 @@ selectOrder.addEventListener("change", ()=>{
 
 
 
+
+
+
+
+
+
+
+import pokeData from './data/pokemon/pokemon.js';
+
+import { filterData } from './data.js';
 
 /*
 //seleccionar ordenar por tipo
@@ -376,3 +377,4 @@ selectEggs.addEventListener("change", ()=>{
   }
 })
  */
+
