@@ -3,8 +3,10 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guía Pokémon Go</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="img/favicon.ico" type="image/ico" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand:wght@400;500&display=swap"
     rel="stylesheet">
@@ -13,9 +15,13 @@
 <body>
   <header>
     <div class="nav" id="nav">
-      <a href="#containerHome" id="homeNav"><img src="./img/LogoGuía.png" id="imgLogo"></a>
-      <a href="#containerPokedex" class="link" id="pokedexNav">Pokedex</a>
-      <a href="#containerRanking" class="link" id="rankingNav">Top 10</a>
+      <div id="containerLogo">
+        <a href="#containerHome" id="homeNav"><img src="./img/LogoGuía.png" id="imgLogo"></a>
+      </div>
+      <div id="containerMenu">
+        <a href="#containerPokedex" class="link" id="pokedexNav">Pokedex</a>
+        <a href="#containerRanking" class="link" id="rankingNav">Top 10</a>
+      </div>
     </div>
   </header>
   <main>
@@ -27,41 +33,39 @@
         <p>¡Te invitamos a recorrer nuestro menú!</p>
         <br>
         <br>
+        <a href="#containerPokedex" id="buttonPokedex">Ver Pokedex</a>
       </div>
       <div id="pikaImg">
         <img src="./img/PikachuOK.png" alt="pikachu">
       </div>
-      <a href="#containerPokedex" id="buttonPokedex">Ver Pokedex</a>
     </section>
     <section id="containerPokedex">
       <div id="filterOrder">
         <select name="selector" id="selectorType" class="selectorType">
           <option value="0" selected=selected>Tipo</option>
-          <option value="bug">Bicho</option>
-          <option value="dragon">Dragon</option>
-          <option value="electric">Eléctrico</option>
-          <option value="fighting">Lucha</option>
-          <option value="fire">Fuego</option>
-          <option value="flying">Volador</option>
-          <option value="ghost">Fantasma</option>
-          <option value="grass">Planta</option>
-          <option value="ground">Tierra</option>
-          <option value="ice">Hielo</option>
-          <option value="normal">Normal</option>
-          <option value="poison">Veneno</option>
-          <option value="psychic">Psiquico</option>
-          <option value="rock">Roca</option>
-          <option value="water">Agua</option>
+          <option value="Bug">Bicho</option>
+          <option value="Dragon">Dragon</option>
+          <option value="Electric">Eléctrico</option>
+          <option value="Fighting">Lucha</option>
+          <option value="Fire">Fuego</option>
+          <option value="Flying">Volador</option>
+          <option value="Ghost">Fantasma</option>
+          <option value="Grass">Planta</option>
+          <option value="Ground">Tierra</option>
+          <option value="Ice">Hielo</option>
+          <option value="Normal">Normal</option>
+          <option value="Poison">Veneno</option>
+          <option value="Psychic">Psiquico</option>
+          <option value="Rock">Roca</option>
+          <option value="Water">Agua</option>
         </select>
         <select name="selector" id="selectorOrder" class="selectorType">
           <option value="0">Ordenar</option>
-          <option value="A-Z">A - Z</option>
-          <option value="Z-A">Z - A</option>
-          <option value="1-151">1 - 151</option>
-          <option value="151-1">151 - 1</option>
+          <option value="1">A - Z</option>
+          <option value="2">Z - A</option>
+          <option value="3">1 - 151</option>
+          <option value="4">151 - 1</option>
         </select>
-      </div>
-      <div class="search" id="search">
         <input type="text" id="searchBar" placeholder="Pikachu, Bulbasaur, etc">
       </div>
       <div id="containerPokemon" class="containerPokemon">
@@ -72,9 +76,8 @@
         <div id="filterOrderR">
           <select name="selector" id="selectorType2" class="selectorType">
             <option value="0" selected=selected>Selecciona un Top</option>
-            <option value="1">KM por huevo</option>
-            <option value="dragon">Pokemon más frecuente</option>
-            <option value="electric">Menos caramelos para evolucionar</option>
+            <option value="1">Pokemon más frecuente</option>
+            <option value="2">KM por huevo</option>
           </select>
         </div>
         <div id="tableOne"></div>
