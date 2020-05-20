@@ -20,7 +20,7 @@
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Web2"></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page3.png" alt="Top"></p>
 <h2 id="definición-del-producto">DEFINICIÓN DEL PRODUCTO</h2>
-<p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores avanzados, es decir, que juegan constantemente y quieren conocer datos relevantes para aumentar sus opciones de ganar Pokémon Go.<br>
+<p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores principiantes, es decir, que juegan hace poco y quieren conocer los pokemon y quieren aumentar sus opciones de ganar Pokémon Go.<br>
 Los usuarios podrán tener acceso a los <em>Pokémones de  Kanto.</em> Podrán encontrar datos de cada especie de Pokémon, ordenarlos alfabeticamente, según su tipo, principales características, debilidad y caramelos necesarios para evolucionar.<br>
 Con esta plataforma, el usuario podra acceder a la información de manera simple y entretenida.</p>
 <h2 id="tipo-de-usuario">TIPO DE USUARIO</h2>
