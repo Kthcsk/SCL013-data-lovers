@@ -146,5 +146,4 @@ menuOrder.addEventListener('change', (event) => {
 })
 
 //Busqueda Pokemon
-// A medida que uno vaya escribiendo vaya filtrando
 // formulario.addEventListener('input', filtrar); (Esto sirve para el comentario de arriba)
