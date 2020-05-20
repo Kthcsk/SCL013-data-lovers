@@ -20,11 +20,11 @@
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Web2"></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page3.png" alt="Top"></p>
 <h2 id="definición-del-producto">DEFINICIÓN DEL PRODUCTO</h2>
-<p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores principiantes, es decir, que juegan hace poco y quieren conocer los pokemon y quieren aumentar sus opciones de ganar Pokémon Go.<br>
+<p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores principiantes, es decir, que juegan hace poco y quieren conocer los pokemon y quieren aumentar sus opciones de mejorar su rendimiento en Pokémon Go.<br>
 Los usuarios podrán tener acceso a los <em>Pokémones de  Kanto.</em> Podrán encontrar datos de cada especie de Pokémon, ordenarlos alfabeticamente, según su tipo, principales características, debilidad y caramelos necesarios para evolucionar.<br>
 Con esta plataforma, el usuario podra acceder a la información de manera simple y entretenida.</p>
 <h2 id="tipo-de-usuario">TIPO DE USUARIO</h2>
-<p>Usuario avanzado, que posee conocimientos de la serie Pokémon, asi como del juego Pokemon Go.</p>
+<p>Usuario principiante, que posee conocimientos básicos de la serie Pokémon, asi como del juego Pokemon Go.</p>
 <h2 id="objetivo-principal-del-producto">OBJETIVO PRINCIPAL DEL PRODUCTO</h2>
 <p>El objetivo de <em>Guía Pokémon Go</em> es ayudar a mejorar el rendimiento en el juego y ayudar al usuario a convertirse en  Maestro Pokemon.</p>
 <h2 id="historias-de-usuario">HISTORIAS DE USUARIO</h2>
