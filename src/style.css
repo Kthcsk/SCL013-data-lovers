@@ -4,12 +4,200 @@ font-family: 'Montserrat', sans-serif; */
 * {
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
-html {
-  font-size: 18px;
+/* tablet - Celular */
+@media (max-width: 700px) {
+  #pikaImg {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(25, 158, 163);
+    z-index: 1;
+  }
+
+  h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: whitesmoke;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.80em;
+    color: whitesmoke;
+  }
+
+  #filterOrder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+  }
+
+  #filterOrder>select {
+    margin-bottom: 8px;
+  }
+
+  .cardP {
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+    height: 145px;
+    text-align: center;
+    border-radius: 15px;
+    background: whitesmoke;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .cardP:hover {
+    background-color: #15464B;
+    opacity: 70%;
+    transition: 0.3s;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #tableOne {
+    /*     display: flex;
+    flex-direction: column; */
+    width: 280px;
+    height: 280px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+  }
+
+  #containerHome {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
+
+  #containerPokedex {
+    width: 100%;
+    padding: 25% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
+
+  #containerRanking {
+    width: 100%;
+    padding: 25% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
+}
+
+/* vista Escritorio */
+@media (min-width: 701px) {
+  #pikaImg {
+    top: 20%;
+    right: 8%;
+    width: 35%;
+  }
+
+  #pikaImg img {
+    width: 100%;
+    height: auto;
+  }
+
+  #homeText {
+    width: 60%;
+  }
+
+  .link {
+    font-size: 1.5em;
+  }
+
+  .nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(25, 158, 163);
+    z-index: 1;
+  }
+
+  h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 3.70em;
+    color: whitesmoke;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.30em;
+    color: whitesmoke;
+  }
+
+  #filterOrder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+  }
+
+  .cardP {
+    padding: 10px;
+    margin: 15px;
+    width: 160px;
+    height: 195px;
+    text-align: center;
+    border-radius: 15px;
+    background: whitesmoke;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .cardP:hover {
+    background-color: #15464B;
+    opacity: 70%;
+    transition: 0.3s;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #tableOne {
+    width: 80vh;
+    height: 70vh;
+    background-color: whitesmoke;
+    border-radius: 30px;
+  }
+
+  #containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15% 0% 5% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
+
+  #containerPokedex {
+    width: 100%;
+    padding: 12% 0% 5% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
+
+  #containerRanking {
+    width: 100%;
+    padding: 12% 0% 5% 0%;
+    background: rgb(25, 158, 163);
+    background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+  }
 }
 
 header {
@@ -17,23 +205,26 @@ header {
   width: 100%;
 }
 
-.nav {
-  width: 100%;
-  position: fixed;
+#containerLogo {
+  width: 20%;
+}
+
+#containerMenu {
   display: flex;
-  width: 100%;
-  padding: 0vh 1vh;
-  background-color: #18A99C;
-  z-index: 1;
+  flex-direction: row;
+  width: 80%;
 }
 
 .link {
-  width: 30 vh;
-  height: 15vh;
+  display: flex;
+  width: 32%;
+  height: 100%;
+  max-width: 200px;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  padding: 4vw 4vw 2vw 4vw;
   color: whitesmoke;
   background: #65c6cf;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
@@ -45,24 +236,9 @@ header {
 }
 
 #imgLogo {
-  position: absolute;
-  left: 30px;
-  top: -45px;
-  width: 250px;
-  height: 230px;
+  width: 80%;
+  min-width: 90px;
   padding: 0px 0px;
-}
-
-#pikaImg {
-  position: absolute;
-  top: 20%;
-  right: 10%;
-  width: 500px;
-}
-
-#pikaImg img {
-  width: 100%;
-  height: auto;
 }
 
 #pokedexNav:hover {
@@ -75,26 +251,6 @@ header {
   background-color: #15464B;
   color: #ffffff;
   transition: 0.3s;
-}
-
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  font-size: 3.9rem;
-  color: whitesmoke;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1.30rem;
-  color: whitesmoke;
-}
-
-#containerHome {
-  padding: 25vh 10vh;
-  background: rgb(25, 158, 163);
-  background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
 }
 
 #buttonPokedex {
@@ -113,17 +269,6 @@ p {
   transition: 0.3s;
 }
 
-#containerPokedex {
-  padding: 25vh 10vh;
-  background: rgb(25, 158, 163);
-  background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
-}
-
-#filterOrder {
-  display: flex;
-  float: left;
-}
-
 #containerPokemon {
   display: flex;
   flex-wrap: wrap;
@@ -135,22 +280,8 @@ p {
   width: 100%;
 }
 
-.cardP {
-  padding: 10px;
-  margin: 15px;
-  width: 160px;
-  height: 195px;
-  text-align: center;
-  border-radius: 15px;
-  background: whitesmoke;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-}
-
-.cardP:hover {
-  background-color: #15464B;
-  opacity: 50%;
-  transition: 0.3s;
+a {
+  text-decoration: none;
 }
 
 .pokeNumber {
@@ -175,25 +306,24 @@ p {
 
 .selectorType {
   display: inline-block;
-  width: 50px;
+  width: 150px;
   height: 30px;
   font-family: 'Montserrat', sans-serif;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
   color: #0f0f0f;
   font-size: 0.8em;
-  margin: 2px 15px;
   border-radius: 30px;
   outline: none;
-  width: 180px;
   cursor: pointer;
-  text-align: center;
+}
+
+option {
+  font-size: 0.8em;
 }
 
 #searchBar {
   width: 250px;
   height: 30px;
-  display: flex;
-  flex-direction: column;
   border-radius: 30px;
   color: #0f0f0f;
   font-size: 0.8em;
@@ -208,15 +338,9 @@ p {
   opacity: 25%;
 }
 
-#containerRanking {
-  padding: 20vh 10vh;
-  background: rgb(25, 158, 163);
-  background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
-}
-
 #filterOrderR {
   display: flex;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 #tableTop {
@@ -227,13 +351,7 @@ p {
 
 .root {
   display: flex;
-}
-
-#tableOne {
-  width: 80vh;
-  height: 70vh;
-  background-color: whitesmoke;
-  border-radius: 30px;
+  margin-bottom: 5px;
 }
 
 .pokeNumber2 {
